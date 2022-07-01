@@ -1,0 +1,287 @@
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
+.App {
+  font-family: "Krona One", sans-serif;
+  height: 100vh;
+  background-color: #f8f8f8;
+  margin: 0;
+}
+
+h1 {
+  color: #c0cb01;
+  font-weight: bold;
+}
+
+.info-and-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1em 2em;
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  margin-bottom: 1em;
+  padding: 0em 8em;
+}
+
+.errorMessage {
+  color: #db1010;
+  margin-top: 5px;
+}
+
+/*BUTTON COMPONENT*/
+button {
+  display: inline-flex;
+  padding: 0;
+  height: 50px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.button-icon,
+.button-text {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 24px;
+  color: #fff;
+  height: 100%;
+}
+
+/*HEADER COMPONENT*/
+header {
+  display: flex;
+  height: 10vh;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em 2em;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+/*ADD_NEW_VEHICLE PAGE*/
+#add-new-vehicle-page {
+  width: 100vw;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#add-card {
+  width: auto;
+  height: auto;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1em;
+  padding-bottom: 2em;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 3%;
+}
+
+#heading {
+  margin: 2em 0;
+}
+
+#heading * {
+  text-align: center;
+  margin: 0;
+}
+
+#power-container div {
+  display: flex;
+  justify-content: space-between;
+}
+
+#power-container input {
+  width: 45%;
+}
+
+#controls-container {
+  display: flex;
+  justify-content: center;
+}
+
+#controls {
+  display: flex;
+  width: 70%;
+  justify-content: space-around;
+  margin-top: 3em;
+}
+
+/*VEHICLE_PAGE*/
+#card {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 450px;
+  border-radius: 5%;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.25);
+}
+
+#card:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#card * {
+  margin: 0;
+}
+
+#vehicle-image {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 1em;
+  display: flex;
+}
+
+#vehicle-image img {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+}
+
+/*VEHICLE_LIST COMPONENT*/
+#vehicle-list {
+  padding: 2em;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
+  row-gap: 2.5em;
+  column-gap: 4.7em;
+  list-style: none;
+}
+
+/*VEHICLE_OVERVIEW PAGE*/
+#vehicle-overview-page {
+  display: flex;
+  flex-direction: column;
+}
+
+#vehicle-overview-container {
+  display: flex;
+  padding: 2em;
+}
+
+#vehicle-overview-image {
+  width: 800px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#vehicle-overview-image img {
+  width: 800px;
+  height: 600px;
+  object-fit: contain;
+}
+
+#vehicle-overview-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#vehicle-overview-form * {
+  background-color: #f8f8f8;
+}
+
+/*HOME PAGE*/
+#home-page {
+  display: flex;
+  justify-content: center;
+  padding: 2em;
+  height: 80vh;
+}
+
+#home-page-image {
+  display: flex;
+  align-items: center;
+}
+
+#home-page-info {
+  margin: 10em 0;
+}
+
+/*RECEIPT COMPONENT*/
+#list-item {
+  display: inline-flex;
+  width: calc(100% - 2em);
+  align-items: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin: 1em;
+  background-color: #fff;
+  height: 150px;
+}
+
+#receipt-info-container {
+  display: flex;
+  flex-grow: 2;
+}
+
+#receipt-status {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 2em;
+}
+
+#status {
+  font-size: 12px;
+}
+
+#receipt-info {
+  margin-left: 2em;
+}
+
+#receipt-info * {
+  margin: 0;
+}
+
+#change-receipt-status {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 3em;
+}
+
+#dialog-choice-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*RECEIPT_LIST COMPONENT*/
+#receipt-list {
+  padding: 1em;
+  overflow-y: scroll;
+  list-style: none;
+}
+
+/*RECEIPTS PAGE*/
+#search-filter {
+  padding: 0 2em;
+  height: 4em;
+  display: flex;
+  align-items: center;
+}
+
+#search-filter-input label {
+  font-size: 1.2em;
+}
+
+#search-filter-input input {
+  padding: 0.5em;
+  border: 0;
+  border-bottom: 2px solid #9b9b9b;
+  outline: none;
+  margin-left: 1em;
+  background-color: #f8f8f8;
+}
