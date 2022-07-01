@@ -4,12 +4,12 @@ Mala web aplikacija za upravljanje voznim parkom koja nudi mogućnosti dodavanja
 
 Aplikacija je urađena sa: 
 
-<div style="dispay:flex; justify-content: space-around">
-  <div style="margin: 20px">
+<p float="left">
+  
     <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg" title="cpp" alt="cpp" width="200" height="200"   style="max-width: 100%;">
-  </div>
-  <div style="margin: 20px">
     <img src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original-wordmark.svg" title="cpp" alt="cpp" width="200" height="200" style="max-width: 100%;">
-  </div>
+    <img src="https://github.com/devicons/devicon/blob/master/icons/sequelize/sequelize-original-wordmark.svg" title="cpp" alt="cpp" width="200" height="200" style="max-width: 100%;">
+    <img src="https://github.com/devicons/devicon/blob/master/icons/mysql/mysql-original-wordmark.svg" title="cpp" alt="cpp" width="200" height="200" style="max-width: 100%;">
+    
 
-</div>
+</p>
