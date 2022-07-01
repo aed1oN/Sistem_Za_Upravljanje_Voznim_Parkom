@@ -2,7 +2,7 @@
 
 ------------------------------------------------------------------------------------------------------------------
 
-###Mala web aplikacija za upravljanje voznim parkom koja nudi mogućnosti dodavanja, pregleda, brisanja i mijenjanja vozila, kao i kreiranja putnih naloga za vozila
+Mala web aplikacija za upravljanje voznim parkom koja nudi mogućnosti dodavanja, pregleda, brisanja i mijenjanja vozila, kao i kreiranja putnih naloga za vozila
 
 ------------------------------------------------------------------------------------------------------------------
 
